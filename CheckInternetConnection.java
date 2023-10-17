@@ -6,13 +6,6 @@ import java.net.URL;
 
 public class CheckInternet {
     public static boolean checkInternetConnection() {
-        /**
-            * Verifica a conexão com a internet.
-            * 
-            * Este método tenta estabelecer uma conexão com o Google. Se a resposta do
-            * servidor for bem-sucedida (código 2xx), imprime "Conectado à internet".
-            * Caso contrário, exibe um alerta informando a falta de conexão.
-        */
         String url = "http://www.google.com";
         String[] txt = {
             "Verificando conexão com a internet...%n",
